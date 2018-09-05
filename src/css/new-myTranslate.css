@@ -1,0 +1,545 @@
+button:focus{
+    outline: none;
+    border: none;
+}
+button:hover{
+    opacity: 0.8;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.no-result{
+    width: 1080px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    font-size: 14px;
+    color:#4F5F82;
+    padding-top: 1px;
+    position: absolute;
+    top: 60px;
+    z-index: 100;
+    display: none;
+}
+.no-result .no-content{
+    margin-top: 50px;
+}
+.no-result .no-content .no-img{
+    width: 121px;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+.no-result .no-content .no-img img{
+    width: 100%;
+
+}
+.content {/*background-color: #FBFBFD;*/
+    margin: 0 auto;
+    width: 1080px;
+    background: white;
+    color: #031B4D;
+    position: relative;
+    min-height: 360px;
+}
+.content_w{
+    position: relative;
+    border-radius:2px;
+}
+.content_w .top-box{
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(16, 98, 243, 0.06);
+}
+
+.top-title,.top-delete{
+    float: left;
+}
+.top-box .top-title {
+   font-size: 14px;
+    font-weight: 500;
+    margin: 21px;
+    color: #75809D;
+    cursor: pointer;
+}
+
+.top-box .top-delete{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 21px;
+    color: #75809D;
+    cursor: pointer;
+}
+.top-box .active{
+    color: inherit;
+}
+.top-delete .delete-icon{
+    width: 14px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+.content_w .top-box .search-box{
+    float: right;
+    position: relative;
+    margin: 14px 28px 14px 14px;
+
+}
+.content_w .top-box .search-box input{
+    width: 219px;
+    height: 32px;
+    padding: 6px 35px 6px 10px;
+    border-radius: 3px;
+    border: 1px solid #B3BED2;
+    color: #75809D;
+}
+
+.content_w .top-box .search-box span{
+    position: absolute;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    right: 15px;
+    top: 7px;
+    cursor: pointer;
+    background: url(/Translate/resources/image/newTerm/terminology_find@3x.png) no-repeat;
+    background-size: 100%;
+}
+.content_w .top-box .top-btnbox{
+    float: right;
+    margin: 14px 0;
+    display: none;
+}
+.content_w .top-box .top-btnbox button{
+    padding: 5px 20px 5px 15px;
+    border: 1px solid #1062F3;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 20px;
+    float: left;
+}
+.content_w .top-box .top-btnbox button.reset-btn{
+    background: linear-gradient(to right,#1062F3,#1635FF);
+    color: white;
+    margin-right: 12px;
+}
+.content_w .top-box .top-btnbox button.delete-btn{
+    color: #1062F3;
+}
+.top-btnbox button .btn-icon{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+.top-btnbox button .btn-icon img{
+    width: 100%;
+    margin-top: -3px;
+}
+.file_buttom {margin: auto -28%;}
+.blue-link{
+    color: #1062F3;
+    margin-right:21px;
+    white-space: nowrap;
+    display: inline-block;
+}
+.blue-link:hover{ color: #2D74F1; }
+.more-message{
+    background: url(/Translate/resources/image/newpage/upload_translate_fail_reason@3x.png);
+    background-size:100%;
+    display: inline-block;
+    width: 14px;
+    height:14px;
+    vertical-align: text-top;
+    margin-left: 7px;
+    cursor: pointer;
+    position: relative;
+}
+.message-tip{
+    background: rgba(0,0,0,.7);
+    display: inline-block;
+    color: white;
+    width: 140px;
+    border-radius: 4px;
+    padding: 13px 11px;
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    margin-left: -70px;
+    top:27px;
+    display: none;
+    white-space: pre-wrap;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    box-shadow: 0 4px 10px 0 rgba(16, 98, 243, 0.16);
+}
+.message-tip:before{
+    content:'';
+    display: inline-block;
+    border: 5px solid;
+    border-color: transparent transparent rgba(0,0,0,.7) transparent;
+    position: absolute;
+    top:-10px;
+    left: 50%;
+    margin-left: -5px;
+}
+.question2{  width: 16px; height: 16px; background-size: 16px; }
+.question2 span{ display: none; position: absolute; left: -80px; bottom: -80px; font-weight: normal; white-space: normal; background: #FFE8D5;box-shadow: 0 1px 2px 0 #D9CDC3;border-radius: 4px; width: 166px; color: #4E5773 !important; line-height: 18px; text-align: left; padding: 10px;  }
+.question2 span:before{ content: ''; position: absolute; top: -11px; left:81px; border:6px solid; border-color: transparent transparent #FFE8D5 transparent; }
+
+.kong-bg{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 30px 0 #CBE0FF;
+    width: 594px;
+    height: 411px;
+    margin: 0 auto;
+    background-image:url(/Translate/resources/image/mytranslate_tip.png);
+    background-size: 252px 186px;
+    background-repeat: no-repeat;
+    background-position: 140px 55px;
+    text-align: center;
+}
+.kong-bg>p{
+    font-size: 14px;
+    color: #999999;
+    padding-top: 280px;
+}
+.kong-bg>button{
+    box-shadow: 0 5px 12px 0 #BECDFF;
+    margin-top: 30px;
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+
+}
+#mainGrid .file-img{
+    width: 32px;
+    height: 39px;
+    display: inline-block;
+    margin-right: 12px;
+}
+#mainGrid .file-img img{
+    width: 100%;
+}
+#mainGrid .file_name {
+    line-height: 17px;
+    width: 292px;
+    word-wrap: break-word;
+    display: inline-block;
+    vertical-align: middle;
+}
+#mainGrid .arrow-icon{
+    background: url(/Translate/resources/image/newpage/terminologytranslateblack@3x.png) no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+#mainGrid .translate-status{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: rgba(40, 120, 255, .05);
+    top:0;
+    left: -615px;
+    transition: width 2s ease;
+    z-index: 0;
+}
+
+#mainGrid .ok-icon{
+    background: url(/Translate/resources/image/newpage/upload_translate_successful@3x.png);
+    background-size:100%;
+    display: inline-block;
+    width: 21px;
+    height:21px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+#mainGrid .fail-icon{
+    background: url(/Translate/resources/image/newpage/upload_translate_fail@3x.png);
+    background-size:100%;
+    display: inline-block;
+    width: 21px;
+    height:21px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/*表格样式修改*/
+table,
+th,
+td {
+    border-bottom: 1px solid RGBA(16, 98, 243, 0.06) !important;
+}
+.fixed-table-container .bs-checkbox{
+    text-align: left;
+}
+.bootstrap-table .table:not(.table-condensed) > tbody > tr > td,.fixed-table-container thead th .th-inner{
+    padding: 18px 0;
+    border: none;
+    font-weight: 400;
+    position: relative;
+}
+#mainGrid thead {
+    color: #75809D;
+    font-weight: 300;
+}
+#mainGrid tbody{
+    color:#031B4D;
+}
+#mainGrid input[type="checkbox"]{
+    margin-left: 20px!important;
+    margin-right: 11px!important;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.fixed-table-container .bs-checkbox .th-inner{
+    position: relative;
+}
+td.bs-checkbox{
+    position:relative;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    background-color: #1062F3;
+}
+.dropdown-menu>li>a:focus{
+    background: #1062F3;
+    color:white;
+    outline: none;
+}
+
+.dropdown-menu>li>a:hover{
+    color:#1062F3;
+}
+#mainGrid .transmodify{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+#mainGrid .transmodify img{
+    width: 100%;
+}
+.table-hover>tbody>tr:hover {
+    background: #FAFBFD;
+}
+
+
+/*分页样式修改*/
+.fixed-table-pagination div.pagination,
+.fixed-table-pagination .pagination-detail {
+    margin-left: 20px;
+    color:#4F5F82;
+}
+
+.fixed-table-pagination .pagination-detail {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.pull-left .btn-group button.btn {
+    /*width: 40px;*/
+    /*height: 20px;*/
+    padding: 0 5px 0 7px;
+    border-radius: 4px;
+    border-color: #4F5F82;
+    color: #4F5F82;
+    font-size: 12px;
+    padding-top: 1px;
+    margin: -2px 7px 0 11px;
+}
+.dropup .caret{
+    background: url(/Translate/resources/image/newTerm/Rectangledown@3x.png) no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-left: 4px;
+    border:none;
+}
+.dropup .caret.active{
+    background: url(/Translate/resources/image/newTerm/Rectangle33@3x.png) no-repeat;
+}
+.btn-group span.page-size {
+    margin-left: -2px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    background-color: #1062F3;
+}
+
+.fixed-table-pagination div.pagination {
+    margin-top: 23px;
+    margin-right: 21px;
+}
+.pagination>li>a {
+    position: relative;
+    float: left;
+    padding: 2px 7px 1px 6px !important;
+    margin: 0 3px;
+    color: #4F5F82;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 12px;
+    border: none;
+    line-height: 17px !important;
+}
+.pagination>.disabled>a{
+    background: transparent;
+}
+.pagination>.active>a {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #1062F3;
+    border-radius: 4px;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    opacity: 0.8 !important;
+    z-index: 2;
+    color: #1062F3;
+    background-color: transparent;
+    border: none;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    opacity: 0.8!important;
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #1062F3;
+    border-color: #1062F3;
+}
+
+.pagination>li:first-child>a{
+    background: url(/Translate/resources/image/newTerm/terminology_page_number_left@3x.png) no-repeat;
+    background-size: 50%;
+    color: transparent;
+    margin-top: 4px;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span{
+    color: transparent;
+    background: url(/Translate/resources/image/newTerm/terminology_page_number_right@3x.png) no-repeat;
+    background-size: 50%;
+    margin-top: 4px;
+}
+
+/*弹窗样式*/
+#modal{
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+#modal-wrap{
+    padding: 30px 45px;
+    position: absolute;
+    left: 50%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    background: white;
+    color: #031B4D;
+    border-radius: 4px;
+}
+#modal-wrap .modal-title{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.remind-title{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.remind-content{
+    color: #75809D;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.remind-btn button{
+    padding: 12px 66px;
+    border: 1px solid #1062F3;
+    border-radius: 22px;
+    color: #1062F3;
+}
+.remind-btn button.ok-btn{
+    margin-right: 30px;
+    background: linear-gradient(to right,#1062F3,#1635FF);
+    color: white;
+}
+.modal-close{
+    width: 16px;
+    height: 16px;
+    background: url(/Translate/resources/image/newpage/terminology_pop_close@3x.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.modal-close:hover{
+    opacity: 0.8;
+}
+
+.drloading,.drsuccess{
+    position: fixed;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #1062F3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(19, 109, 249, 0.3);
+    color: white;
+    padding: 10px 14px;
+    vertical-align: middle;
+    display: none;
+    z-index: 100;
+}
+
+.drloading .loading-icon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    animation: rotate 2s infinite linear;
+    -webkit-animation: rotate 2s infinite linear;
+    -moz-animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+    }
+}
+.drsuccess .success-icon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
+.drloading .loading-icon img,.drsuccess .success-icon img{
+    width: 100%;
+    margin-top: -3px;
+}
+

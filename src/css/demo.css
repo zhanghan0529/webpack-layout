@@ -1,0 +1,12 @@
+.app{
+    transform: translate(-50);
+    transition:all 0.3s;
+}
+@keyframes up{
+    100% {opacity: 1}
+}
+#app{
+    animation: up 0.3;
+    border-radius: 1px;
+    background: linear-gradient(to right,red,blue)
+}
