@@ -1,1 +1,2 @@
 # webpack-layout
+npm install
